@@ -52,7 +52,7 @@ with open("Amazon_Product_Price.csv", "a+", newlines="", encoding ='UTF8') as f:
     writer = csv.writer(f)
     writer.writerow(data)
 
-#Automation the process
+#Automating the process
 def check_price():
     URL = "https://www.amazon.com/MuscleTech-Protein-Sustained-Release-Chocolate/dp/B00BEOHFKO/?_encoding=UTF8&pd_rd_w=nlgGM&content-id=amzn1.sym.bc5f3394-3b4c-4031-8ac0-18107ac75816&pf_rd_p=bc5f3394-3b4c-4031-8ac0-18107ac75816&pf_rd_r=2N9GNWST3RCN7FQM59SP&pd_rd_wg=7SH0U&pd_rd_r=59f98f7c-9d7d-4aa3-a26c-ab8a1219c071&ref_=pd_gw_ci_mcx_mr_hp_atf_m&th=1"
 
